@@ -3,6 +3,10 @@
 
 #include "BP_HoverGroup.h"
 
+#include "HoverComposite.h"
+#include "GeometryCollection/Facades/CollectionPositionTargetFacade.h"
+#include "Kismet/GameplayStatics.h"
+
 // Sets default values for this component's properties
 UBP_HoverGroup::UBP_HoverGroup()
 {
@@ -25,6 +29,27 @@ void UBP_HoverGroup::BeginPlay()
 			PrimitiveComponent = Primitive->IsSimulatingPhysics() ? Primitive : nullptr;
 		}
 	}
+
+	TArray<UHoverComposite*> FoundComponents;
+	GetOwner()->GetComponents<UHoverComposite>(FoundComponents);
+	
+	for (UHoverComposite* Hover : FoundComponents)
+		if (Hover)
+			Hovers.Add(Hover);
+		
+	
+	
+	for (auto hover : Hovers)
+	{
+		hover->Rep_Range += HoverHeightModifier;
+		hover->Attr_Range += HoverHeightModifier + HoverAttrHeightModifier;
+
+		hover->Rep_Damp += DampingModifier;
+		hover->Attr_Damp += AttrDampModifier;
+
+		hover->Rep_Stiff += StiffnessModifier;
+		hover->Attr_Stiff += AttrStiffnessModifier;
+	}
 }
 
 
@@ -38,9 +63,27 @@ void UBP_HoverGroup::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 	AttrCompression = 0;
 	RepCompression = 0;
 
+	// Compute average compression
 	for (auto hover : Hovers)
 	{
-		
+		hover->DoRaycast(bDebugRay, FLinearColor::Blue);
+		AttrCompression += hover->CalculateCompression(hover->Attr_Dist, hover->Attr_Range, true);
+		RepCompression  += hover->CalculateCompression(hover->Rep_Dist, hover->Rep_Range, false);
+	}
+	AttrCompression /= Hovers.Num();
+	RepCompression /= Hovers.Num();
+
+	// Apply forces
+	for (auto hover : Hovers)
+	{
+		auto location = hover->GetComponentLocation();
+		auto vector = hover->GetUpVector();
+
+		float force = hover->GetAttractionForce(AttrCompression);
+		PrimitiveComponent->AddForceAtLocation(force*vector, location);
+
+		force = hover->GetRepultionForce(RepCompression);
+		PrimitiveComponent->AddForceAtLocation(force*vector, location);
 	}
 }
 

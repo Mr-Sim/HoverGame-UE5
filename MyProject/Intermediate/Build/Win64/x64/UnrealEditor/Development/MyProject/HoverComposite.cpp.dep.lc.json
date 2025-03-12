@@ -1,13 +1,24 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\scatanese\\source\\repos\\z_unrealprojects\\hovergame\\hovergame-ue5\\myproject\\source\\myproject\\private\\hovercomposite.cpp",
+        "Source": "c:\\users\\scatanese\\desktop\\repo\\hovergame-ue5\\myproject\\source\\myproject\\private\\hovercomposite.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\scatanese\\source\\repos\\z_unrealprojects\\hovergame\\hovergame-ue5\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "PCH": "c:\\users\\scatanese\\desktop\\repo\\hovergame-ue5\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
         "Includes": [
-            "c:\\users\\scatanese\\source\\repos\\z_unrealprojects\\hovergame\\hovergame-ue5\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
-            "c:\\users\\scatanese\\source\\repos\\z_unrealprojects\\hovergame\\hovergame-ue5\\myproject\\source\\myproject\\public\\hovercomposite.h",
-            "c:\\users\\scatanese\\source\\repos\\z_unrealprojects\\hovergame\\hovergame-ue5\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\hovercomposite.generated.h"
+            "c:\\users\\scatanese\\desktop\\repo\\hovergame-ue5\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "c:\\users\\scatanese\\desktop\\repo\\hovergame-ue5\\myproject\\source\\myproject\\public\\hovercomposite.h",
+            "c:\\program files\\epic games\\5.4\\engine\\source\\runtime\\geometrycore\\public\\util\\colorconstants.h",
+            "c:\\program files\\epic games\\5.4\\engine\\source\\runtime\\geometrycore\\public\\mathutil.h",
+            "c:\\program files\\epic games\\5.4\\engine\\source\\runtime\\geometrycore\\public\\geometrybase.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\cmath",
+            "c:\\users\\scatanese\\desktop\\repo\\hovergame-ue5\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\hovercomposite.generated.h",
+            "c:\\program files\\epic games\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
+            "c:\\program files\\epic games\\5.4\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
+            "c:\\program files\\epic games\\5.4\\engine\\source\\runtime\\engine\\internal\\kismet\\blueprinttypeconversions.h",
+            "c:\\program files\\epic games\\5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\blueprinttypeconversions.generated.h",
+            "c:\\program files\\epic games\\5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "c:\\program files\\epic games\\5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

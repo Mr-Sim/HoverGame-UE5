@@ -7,6 +7,8 @@
 #include "BP_HoverGroup.generated.h"
 
 
+class UHoverComposite;
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class MYPROJECT_API UBP_HoverGroup : public UActorComponent
 {
@@ -36,8 +38,23 @@ private:
 	float AttrCompression;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	float RepCompression;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
-	TArray<USceneComponent*> Hovers;
+	TArray<UHoverComposite*> Hovers;
 	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (AllowPrivateAccess = "true"))
+	bool bDebugRay;
 	
+	UPROPERTY(EditAnywhere, Meta = (AllowPrivateAccess = true))
+	float HoverHeightModifier = 200.f;
+	UPROPERTY(EditAnywhere, Meta = (AllowPrivateAccess = true))
+	float HoverAttrHeightModifier;
+	UPROPERTY(EditAnywhere, Meta = (AllowPrivateAccess = true))
+	float DampingModifier = 300000.f;
+	UPROPERTY(EditAnywhere, Meta = (AllowPrivateAccess = true))
+	float StiffnessModifier = 3000000.f;
+	UPROPERTY(EditAnywhere, Meta = (AllowPrivateAccess = true))
+	float AttrDampModifier = 300000.f;
+	UPROPERTY(EditAnywhere, Meta = (AllowPrivateAccess = true))
+	float AttrStiffnessModifier = 5000000.f;
 };
