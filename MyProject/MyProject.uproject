@@ -3,6 +3,16 @@
 	"EngineAssociation": "{FAA4B7C2-4F30-A39C-D008-52934774F86C}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "MyProject",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
