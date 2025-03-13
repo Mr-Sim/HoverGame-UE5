@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\scatanese\\source\\repos\\z_UnrealProjects\\HoverGame\\HoverGame-UE5\\MyProject\\Source\\MyProject\\MyProject.Build.cs",
-		"C:\\Users\\scatanese\\source\\repos\\z_UnrealProjects\\HoverGame\\HoverGame-UE5\\MyProject\\Source\\MyProject.Target.cs",
-		"C:\\Users\\scatanese\\source\\repos\\z_UnrealProjects\\HoverGame\\HoverGame-UE5\\MyProject\\Source\\MyProjectEditor.Target.cs"
+		"C:\\Users\\scatanese\\Desktop\\Unreal Projects\\HoverGame-UE5\\MyProject\\Source\\MyProject\\MyProject.Build.cs",
+		"C:\\Users\\scatanese\\Desktop\\Unreal Projects\\HoverGame-UE5\\MyProject\\Source\\MyProject.Target.cs",
+		"C:\\Users\\scatanese\\Desktop\\Unreal Projects\\HoverGame-UE5\\MyProject\\Source\\MyProjectEditor.Target.cs"
 	],
 	"EngineVersion": "5.4.2"
 }

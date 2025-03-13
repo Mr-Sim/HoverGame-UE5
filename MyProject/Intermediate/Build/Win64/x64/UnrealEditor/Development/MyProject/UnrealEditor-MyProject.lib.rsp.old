@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MyProject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\scatanese\source\repos\z_UnrealProjects\HoverGame\HoverGame-UE5\MyProject\Intermediate\Build\Win64\x64\MyProjectEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.obj"
+"C:\Users\scatanese\source\repos\z_UnrealProjects\HoverGame\HoverGame-UE5\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\BP_HoverGroup.gen.cpp.obj"
+"C:\Users\scatanese\source\repos\z_UnrealProjects\HoverGame\HoverGame-UE5\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\HoverComposite.gen.cpp.obj"
+"C:\Users\scatanese\source\repos\z_UnrealProjects\HoverGame\HoverGame-UE5\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\MyProject.init.gen.cpp.obj"
+"C:\Users\scatanese\source\repos\z_UnrealProjects\HoverGame\HoverGame-UE5\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\MyProject.cpp.obj"
+"C:\Users\scatanese\source\repos\z_UnrealProjects\HoverGame\HoverGame-UE5\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\BP_HoverGroup.cpp.obj"
+"C:\Users\scatanese\source\repos\z_UnrealProjects\HoverGame\HoverGame-UE5\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\HoverComposite.cpp.obj"
+"C:\Users\scatanese\source\repos\z_UnrealProjects\HoverGame\HoverGame-UE5\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\Default.rc2.res"
+/OUT:"C:\Users\scatanese\source\repos\z_UnrealProjects\HoverGame\HoverGame-UE5\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\UnrealEditor-MyProject.lib"

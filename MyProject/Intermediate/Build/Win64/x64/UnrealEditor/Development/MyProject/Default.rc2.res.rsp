@@ -80,5 +80,5 @@
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_IDENTIFIER=MyProject
-/fo "C:\Users\scatanese\source\repos\z_UnrealProjects\HoverGame\HoverGame-UE5\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\Default.rc2.res"
+/fo "C:\Users\scatanese\Desktop\Unreal Projects\HoverGame-UE5\MyProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\MyProject\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
