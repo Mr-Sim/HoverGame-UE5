@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\scatanese\\source\\repos\\z_unrealprojects\\hovergame\\hovergame-ue5\\myproject\\source\\myproject\\private\\hovercomposite.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\scatanese\\source\\repos\\z_unrealprojects\\hovergame\\hovergame-ue5\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "c:\\users\\scatanese\\source\\repos\\z_unrealprojects\\hovergame\\hovergame-ue5\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "c:\\users\\scatanese\\source\\repos\\z_unrealprojects\\hovergame\\hovergame-ue5\\myproject\\source\\myproject\\public\\hovercomposite.h",
+            "c:\\users\\scatanese\\source\\repos\\z_unrealprojects\\hovergame\\hovergame-ue5\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\hovercomposite.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
