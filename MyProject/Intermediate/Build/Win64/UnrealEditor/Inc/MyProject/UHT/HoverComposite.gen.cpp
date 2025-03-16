@@ -452,14 +452,14 @@ UHoverComposite::~UHoverComposite() {}
 // End Class UHoverComposite
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_scatanese_Desktop_repo_HoverGame_UE5_MyProject_Source_MyProject_Public_HoverComposite_h_Statics
+struct Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_Public_HoverComposite_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UHoverComposite, UHoverComposite::StaticClass, TEXT("UHoverComposite"), &Z_Registration_Info_UClass_UHoverComposite, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UHoverComposite), 1871380401U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scatanese_Desktop_repo_HoverGame_UE5_MyProject_Source_MyProject_Public_HoverComposite_h_131020610(TEXT("/Script/MyProject"),
-	Z_CompiledInDeferFile_FID_Users_scatanese_Desktop_repo_HoverGame_UE5_MyProject_Source_MyProject_Public_HoverComposite_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scatanese_Desktop_repo_HoverGame_UE5_MyProject_Source_MyProject_Public_HoverComposite_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_Public_HoverComposite_h_131020610(TEXT("/Script/MyProject"),
+	Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_Public_HoverComposite_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_MyProject_Source_MyProject_Public_HoverComposite_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

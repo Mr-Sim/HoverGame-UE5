@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"E:/Source/Repos/0_UnrealProjects/HoverGame-UE5/MyProject/Content/02-Maps/Test-Map.umap",
+				"E:/Source/Repos/0_UnrealProjects/HoverGame-UE5/MyProject/Content/01-Blueprints/BP_Hover.uasset",
+				"E:/Source/Repos/0_UnrealProjects/HoverGame-UE5/MyProject/Content/04-Inputs/IMC_Hover.uasset",
+				"E:/Source/Repos/0_UnrealProjects/HoverGame-UE5/MyProject/Content/05-VFX/Hover/NewNiagaraSystem.uasset",
 				"C:/Users/scatanese/Desktop/repo/HoverGame-UE5/MyProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"C:/Users/scatanese/Desktop/repo/HoverGame-UE5/MyProject/Content/01-Blueprints/BP_Hover1.uasset",
 				"C:/Users/scatanese/Desktop/repo/HoverGame-UE5/MyProject/Content/01-Blueprints/BP_Hover.uasset",
